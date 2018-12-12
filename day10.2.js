@@ -79,13 +79,9 @@ const compute = points => {
 	while(!areTheyAllTouching(state)) {
 
 		state = getNewState(state);
-		// console.log(i++)
+		i++
 	}
-	// for (let i = 0; i < 3; i++) {
-	// 		state = getNewState(state);
-	// }
-	// console.log(areTheyAllTouching(state))
-	return state;
+	return i;
 };
 
 
